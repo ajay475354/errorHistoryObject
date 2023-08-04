@@ -1,0 +1,44 @@
+.bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details_container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content_data {
+  width: 50%;
+}
+.home_button {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home_image {
+  height: 50vh;
+  width: 50vw;
+}
+@media screen and (min-width: 992px) {
+  .home_image {
+    width: 40vw;
+    height: 50vh;
+  }
+}
+.heading_home {
+  font-family: "Roboto";
+  font-size: 32px;
+  color: black;
+  font-weight: 600;
+}
+.content_home {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: black;
+}
